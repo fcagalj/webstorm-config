@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="16">
     <extensionMap>
       <mapping pattern=".babelrc" type="JavaScript" />
+      <mapping pattern="loseFocus" type="JavaScript" />
       <mapping pattern="codilityAD1Z1" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
     </extensionMap>
