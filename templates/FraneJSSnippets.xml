@@ -80,4 +80,28 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="$watch" value="$scope.$watch('someService.someFunc',&#10;              function(newValue, oldValue) {&#10;&#10;              }&#10;             );" description="angular scope watch" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="$timeout" value="&#10;$timeout(function() {&#10;&#10;    }, 3000);" description="angular timeout" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="surrSefEnv" value="(function(){&#10;  $SELECTION$&#10;})();" description="surrand with self envocing func" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
