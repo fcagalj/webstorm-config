@@ -9,6 +9,8 @@
   </template>
   <template name="surrVit" value="{&#10;  $SELECTION$&#10;}" description="Surround with {}" toReformat="true" toShortenFQNames="true">
     <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
       <option name="JSX_HTML" value="true" />
