@@ -82,7 +82,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="$watch" value="$scope.$watch('someService.someFunc()',  function(newValue, oldValue) {&#10;&#10;});" description="angular scope watch" toReformat="false" toShortenFQNames="true">
+  <template name="$watch" value="$scope.$watch('someService.someFunc',  function(newValue, oldValue) {&#10;&#10;});" description="angular scope watch" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
