@@ -18,7 +18,7 @@
       <option name="DART" value="false" />
     </context>
   </template>
-  <template name="arrayForeach" value=".forEach(function(item){&#10;&#10;});" toReformat="false" toShortenFQNames="true">
+  <template name="foreach" value=".forEach(function(item){&#10;&#10;});" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
@@ -42,7 +42,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="forIn" value="for (var prop in obj) {&#10;  if( obj.hasOwnProperty( prop ) ) {&#10;    console.log(&quot;obj.&quot; + prop + &quot; = &quot; + obj[prop]);&#10;  } &#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="forIn" value="for (var prop in obj) {&#10;  if( obj.hasOwnProperty( prop ) &amp;&amp; typeof prop !== 'object') {&#10;    console.log(&quot;obj.&quot; + prop + &quot; = &quot; + obj[prop]);&#10;  } &#10;}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
@@ -121,5 +121,8 @@
       <option name="JSX_HTML" value="true" />
       <option name="JS_STATEMENT" value="true" />
     </context>
+  </template>
+  <template name="switch" value="switch (foo) {&#10;  case -1:&#10;    console.log('negative 1');&#10;    break;&#10;  case 0: // foo is 0 so criteria met here so this block will run&#10;    console.log(0);&#10;    // NOTE: the forgotten break would have been here&#10;  case 1: // no break statement in 'case 0:' so this case will run as well&#10;    console.log(1);&#10;    break; // it encounters this break so will not continue into 'case 2:'&#10;  case 2:&#10;    console.log(2);&#10;    break;&#10;  default:&#10;    console.log('default');&#10;}" toReformat="false" toShortenFQNames="true">
+    <context />
   </template>
 </templateSet>
