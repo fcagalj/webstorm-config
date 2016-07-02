@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="16">
     <extensionMap>
+      <mapping pattern="LC_practice_SumOfDigits" type="JavaScript" />
       <mapping pattern=".babelrc" type="JavaScript" />
       <mapping pattern="helpers" type="JavaScript" />
       <mapping pattern="loseFocus" type="JavaScript" />
