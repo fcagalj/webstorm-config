@@ -15,4 +15,8 @@
       </profile-state>
     </entry>
   </component>
+  <component name="NodeLocalInterpreterManager">
+    <node-interpreter path="$USER_HOME$/.nvm/versions/node/v4.3.1/bin/node" version="4.3.1" last-modified="1455666390000" />
+    <node-interpreter path="$USER_HOME$/.nvm/versions/node/v5.7.0/bin/node" version="5.7.0" last-modified="1456201441000" />
+  </component>
 </application>
