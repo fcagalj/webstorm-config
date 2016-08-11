@@ -52,4 +52,7 @@
       <option name="JSX_HTML" value="true" />
     </context>
   </template>
+  <template name="li" value="logger.info('');" description="logger info" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
