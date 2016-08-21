@@ -18,7 +18,7 @@
       <option name="DART" value="false" />
     </context>
   </template>
-  <template name="foreach" value=".forEach(function(item){&#10;&#10;});" toReformat="false" toShortenFQNames="true">
+  <template name=".forEach" value=".forEach(function(item){&#10;&#10;});" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
@@ -123,6 +123,9 @@
     </context>
   </template>
   <template name="switch" value="switch (foo) {&#10;  case -1:&#10;    console.log('negative 1');&#10;    break;&#10;  case 0: // foo is 0 so criteria met here so this block will run&#10;    console.log(0);&#10;    // NOTE: the forgotten break would have been here&#10;  case 1: // no break statement in 'case 0:' so this case will run as well&#10;    console.log(1);&#10;    break; // it encounters this break so will not continue into 'case 2:'&#10;  case 2:&#10;    console.log(2);&#10;    break;&#10;  default:&#10;    console.log('default');&#10;}" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="arrow" value="() =&gt; {&#10;&#10;}" description="create arrow function" toReformat="false" toShortenFQNames="true">
     <context />
   </template>
 </templateSet>
