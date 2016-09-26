@@ -34,7 +34,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ifElse" value="if(&lt;){&#10;  &#10;} else {&#10;  &#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="ifElse" value="if(){&#10;  &#10;} else {&#10;  &#10;}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
