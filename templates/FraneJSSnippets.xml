@@ -2,124 +2,77 @@
   <template name="surrFunc" value="function(){&#10;  $SELECTION$&#10;}" description="enclose selection in function" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
       <option name="JSX_HTML" value="false" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="surrVit" value="{&#10;  $SELECTION$&#10;}" description="Surround with {}" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
-      <option name="DART" value="false" />
     </context>
   </template>
   <template name=".forEach" value=".forEach(function(item){&#10;&#10;});" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="for" value="for (var i = 0;i &lt; A.length; i++) {&#10;    &#10;}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="ifElse" value="if(){&#10;  &#10;} else {&#10;  &#10;}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="forIn" value="for (var prop in obj) {&#10;  if( obj.hasOwnProperty( prop ) &amp;&amp; typeof prop !== 'object') {&#10;    console.log(&quot;obj.&quot; + prop + &quot; = &quot; + obj[prop]);&#10;  } &#10;}" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="surrFor" value="for (var i = 0;i &lt; A.length; i++) {&#10;  $SELECTION$&#10;}" description="surrand with for" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="surrIf" value="if () {&#10;  $SELECTION$&#10;}" description="surrand with if block" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="cl" value="console.log('');" description="console log" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="surrCl" value="$SELECTION$&#10;&#10;console.log('', $SELECTION$);&#10;" description="console log selection" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="$watch" value="$scope.$watch('someService.someFunc',  function(newValue, oldValue) {&#10;&#10;});" description="angular scope watch" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="$timeout" value="&#10;$timeout(function() {&#10;&#10;    }, 3000);" description="angular timeout" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="surrSefEnv" value="(function(){&#10;  $SELECTION$&#10;})();" description="surrand with self envocing func" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="if" value="if(){&#10;&#10;}" description="if" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="surrTimeout" value="$timeout(function() {&#10;  $SELECTION$&#10;}, 3000);" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
-      <option name="JS_EXPRESSION" value="true" />
-      <option name="JSX_HTML" value="true" />
-      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="switch" value="switch (foo) {&#10;  case -1:&#10;    console.log('negative 1');&#10;    break;&#10;  case 0: // foo is 0 so criteria met here so this block will run&#10;    console.log(0);&#10;    // NOTE: the forgotten break would have been here&#10;  case 1: // no break statement in 'case 0:' so this case will run as well&#10;    console.log(1);&#10;    break; // it encounters this break so will not continue into 'case 2:'&#10;  case 2:&#10;    console.log(2);&#10;    break;&#10;  default:&#10;    console.log('default');&#10;}" toReformat="false" toShortenFQNames="true">

@@ -5,29 +5,7 @@
     <variable name="dependency" expression="" defaultValue="&quot;dependency&quot;" alwaysStopAt="true" />
     <variable name="activateFunction" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="JSP" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="JS_STATEMENT" value="true" />
-      <option name="TypeScript" value="false" />
-      <option name="Handlebars" value="false" />
-      <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="ngdirective" value="(function() {&#10;    'use strict';&#10;&#10;    angular&#10;        .module('$moduleName$')&#10;        .directive('$directiveName$', $directiveName$);&#10;&#10;    $directiveName$.$inject = ['$dependency$'];&#10;&#10;    /* @ngInject */&#10;    function $directiveName$($dependency$) {&#10;        var directive = {&#10;            bindToController: true,&#10;            controller: $ControllerName$,&#10;            controllerAs: 'vm',&#10;            link: link,&#10;            restrict: 'A',&#10;            scope: {}&#10;        };&#10;        return directive;&#10;&#10;        function link(scope, element, attrs) {&#10;            $linkFunction$&#10;        }&#10;    }&#10;&#10;    $ControllerName$.$inject = ['$dependency$'];&#10;&#10;    /* @ngInject */&#10;    function $ControllerName$($dependency$) {&#10;        $ControllerNameFunction$&#10;    }&#10;&#10;})();&#10;&#10;$END$" description="Creates an Angular directive" toReformat="true" toShortenFQNames="true">
@@ -38,29 +16,7 @@
     <variable name="linkFunction" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ControllerNameFunction" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="JSP" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="JS_STATEMENT" value="true" />
-      <option name="TypeScript" value="false" />
-      <option name="Handlebars" value="false" />
-      <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="ngfactory" value="(function() {&#10;    'use strict';&#10;&#10;    angular&#10;        .module('$moduleName$')&#10;        .factory('$factoryName$', $factoryName$);&#10;&#10;    $factoryName$.$inject = ['$dependency$'];&#10;&#10;    /* @ngInject */&#10;    function $factoryName$($dependency$) {&#10;        var service = {&#10;            $functionName$: $functionName$&#10;        };&#10;        return service;&#10;&#10;        ////////////////&#10;&#10;        function $functionName$() {&#10;            $functionNameFunction$&#10;        }&#10;    }&#10;&#10;})();&#10;&#10;$END$" description="Creates an Angular factory" toReformat="true" toShortenFQNames="true">
@@ -70,29 +26,7 @@
     <variable name="functionName" expression="" defaultValue="&quot;functionName&quot;" alwaysStopAt="true" />
     <variable name="functionNameFunction" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="JSP" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="JS_STATEMENT" value="true" />
-      <option name="TypeScript" value="false" />
-      <option name="Handlebars" value="false" />
-      <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="ngfilter" value="(function() {&#10;    'use strict';&#10;&#10;    angular&#10;        .module('$moduleName$')&#10;        .filter('$filterName$', $filterName$);&#10;&#10;    function $filterName$() {&#10;        return $filterName$Filter;&#10;&#10;        ////////////////&#10;&#10;        function $filterName$Filter($parameters$) {&#10;            return $parameters$;&#10;        }&#10;    }&#10;&#10;})();&#10;&#10;$END$" description="Creates an Angular filter" toReformat="true" toShortenFQNames="true">
@@ -100,58 +34,14 @@
     <variable name="filterName" expression="" defaultValue="&quot;filterName&quot;" alwaysStopAt="true" />
     <variable name="parameters" expression="" defaultValue="&quot;parameters&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="JSP" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="JS_STATEMENT" value="true" />
-      <option name="TypeScript" value="false" />
-      <option name="Handlebars" value="false" />
-      <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="ngapp" value="(function() {&#10;    'use strict';&#10;&#10;    angular&#10;        .module('$moduleName$', [&#10;            '$dependency$'$END$&#10;        ]);&#10;&#10;})();" description="Creates an Angular module setter" toReformat="true" toShortenFQNames="true">
     <variable name="moduleName" expression="" defaultValue="&quot;moduleName&quot;" alwaysStopAt="true" />
     <variable name="dependency" expression="" defaultValue="&quot;dependency&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="JSP" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="JS_STATEMENT" value="true" />
-      <option name="TypeScript" value="false" />
-      <option name="Handlebars" value="false" />
-      <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="ngservice" value="(function() {&#10;    'use strict';&#10;&#10;    angular&#10;        .module('$moduleName$')&#10;        .service('$ServiceName$', $ServiceName$);&#10;&#10;    $ServiceName$.$inject = ['$dependency$'];&#10;&#10;    /* @ngInject */&#10;    function $ServiceName$($dependency$) {&#10;        this.$functionName$ = $functionName$;&#10;&#10;        ////////////////&#10;&#10;        function $functionName$() {&#10;            $functionNameFunction$&#10;        }&#10;    }&#10;&#10;})();&#10;&#10;$END$" description="Creates an Angular service" toReformat="true" toShortenFQNames="true">
@@ -161,29 +51,7 @@
     <variable name="functionName" expression="" defaultValue="&quot;functionName&quot;" alwaysStopAt="true" />
     <variable name="functionNameFunction" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="JSP" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="JS_STATEMENT" value="true" />
-      <option name="TypeScript" value="false" />
-      <option name="Handlebars" value="false" />
-      <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="ngconfig" value=".config($config$)&#10;&#10;$config$.$inject = ['$dependency$'];&#10;&#10;/* @ngInject */&#10;function $config$ ($dependency$) {&#10;    $configFunction$&#10;}$END$" description="Defines a configuration phase function" toReformat="false" toShortenFQNames="true">
@@ -191,29 +59,7 @@
     <variable name="dependency" expression="" defaultValue="&quot;dependency&quot;" alwaysStopAt="true" />
     <variable name="configFunction" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="JSP" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="JS_STATEMENT" value="true" />
-      <option name="TypeScript" value="false" />
-      <option name="Handlebars" value="false" />
-      <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="ngstate" value=".state('$state$', {&#10;    url: '/$url$',&#10;    templateUrl: '$template$.html',&#10;    controller: '$ControllerName$',&#10;    controllerAs: '$vm$'&#10;})$END$" description="Creates an Angular UI Router state defintion" toReformat="false" toShortenFQNames="true">
@@ -223,29 +69,7 @@
     <variable name="ControllerName" expression="" defaultValue="&quot;ControllerName&quot;" alwaysStopAt="true" />
     <variable name="vm" expression="" defaultValue="&quot;vm&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="JSP" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="JS_STATEMENT" value="true" />
-      <option name="TypeScript" value="false" />
-      <option name="Handlebars" value="false" />
-      <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="ngrun" value=".run(run$runName$)&#10;&#10;run$runName$.$inject = ['$dependency$'];&#10;&#10;/* @ngInject */&#10;function run$runName$ ($dependency$) {&#10;    $runNameFunction$&#10;}$END$" description="Defines a run phase function" toReformat="false" toShortenFQNames="true">
@@ -253,57 +77,13 @@
     <variable name="dependency" expression="" defaultValue="&quot;dependency&quot;" alwaysStopAt="true" />
     <variable name="runNameFunction" expression="" defaultValue="&quot;code&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="JSP" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="JS_STATEMENT" value="true" />
-      <option name="TypeScript" value="false" />
-      <option name="Handlebars" value="false" />
-      <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="ngmodule" value="angular&#10;    .module('$moduleName$')&#10;    $END$" description="Creates an Angular module getter" toReformat="false" toShortenFQNames="true">
     <variable name="moduleName" expression="" defaultValue="&quot;module&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="JSP" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="JS_STATEMENT" value="true" />
-      <option name="TypeScript" value="false" />
-      <option name="Handlebars" value="false" />
-      <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="ngroute" value=".when('/$url$', {&#10;    templateUrl: '$template$.html',&#10;    controller: '$ControllerName$',&#10;    controllerAs: '$vm$'&#10;})$END$" description="Defines an Angular ngRoute 'when' definition" toReformat="false" toShortenFQNames="true">
@@ -312,29 +92,7 @@
     <variable name="ControllerName" expression="" defaultValue="&quot;ControllerName&quot;" alwaysStopAt="true" />
     <variable name="vm" expression="" defaultValue="&quot;vm&quot;" alwaysStopAt="true" />
     <context>
-      <option name="HTML_TEXT" value="false" />
-      <option name="HTML" value="false" />
-      <option name="XSL_TEXT" value="false" />
-      <option name="XML" value="false" />
-      <option name="XML_TEXT" value="false" />
-      <option name="JSON" value="false" />
-      <option name="JSP" value="false" />
-      <option name="CSS_PROPERTY_VALUE" value="false" />
-      <option name="CSS_DECLARATION_BLOCK" value="false" />
-      <option name="CSS_RULESET_LIST" value="false" />
-      <option name="CSS" value="false" />
-      <option name="CUCUMBER_FEATURE_FILE" value="false" />
-      <option name="JAVA_SCRIPT" value="false" />
-      <option name="JS_EXPRESSION" value="false" />
-      <option name="JSX_HTML" value="false" />
       <option name="JS_STATEMENT" value="true" />
-      <option name="TypeScript" value="false" />
-      <option name="Handlebars" value="false" />
-      <option name="HAML" value="false" />
-      <option name="JADE" value="false" />
-      <option name="CoffeeScript" value="false" />
-      <option name="DART" value="false" />
-      <option name="OTHER" value="false" />
     </context>
   </template>
 </templateSet>
