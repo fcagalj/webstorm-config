@@ -3,6 +3,7 @@
     <context>
       <option name="HTML" value="true" />
       <option name="JSP" value="true" />
+      <option name="JSX_HTML" value="true" />
     </context>
   </template>
 </templateSet>
