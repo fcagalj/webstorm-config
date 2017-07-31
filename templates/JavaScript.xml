@@ -40,7 +40,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="li" value="    logger.info(` &#10;       ${}&#10;    `);" description="logger info" toReformat="true" toShortenFQNames="true">
+  <template name="linfo" value="    logger.info(` &#10;       ${}&#10;    `);" description="logger info" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -50,5 +50,8 @@
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
+  </template>
+  <template name="li" value="logger.info('');" description="logger.info" toReformat="false" toShortenFQNames="true">
+    <context />
   </template>
 </templateSet>
