@@ -51,7 +51,9 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="li" value="logger.info('');" description="logger.info" toReformat="false" toShortenFQNames="true">
-    <context />
+  <template name="li" value="    logger.info('');" description="logger info" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
   </template>
 </templateSet>
