@@ -56,4 +56,14 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="then" value=" .then(res =&gt; {&#10; &#10; })&#10; " description="then func" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="catch" value=" .catch(err =&gt; {&#10;    logger.error('Error: ', err);&#10;    return response.status(err.status || 500).send(err.message || 'Error');&#10; })&#10; " description="cath func" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
