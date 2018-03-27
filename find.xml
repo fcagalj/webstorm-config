@@ -1,19 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '/Users/fcagalj/SOFT_DEV/JavaScript/alttab-neon/truelocal-www/src/app/services/windowscroll.service.js'" />
-    <option name="defaultScopeName" value="File '/Users/fcagalj/SOFT_DEV/JavaScript/alttab-neon/truelocal-www/src/app/services/windowscroll.service.js'" />
-    <option name="SEARCH_SCOPE" value="File '/Users/fcagalj/SOFT_DEV/JavaScript/alttab-neon/truelocal-www/src/app/services/windowscroll.service.js'" />
-    <recentFileMasks>
-      <mask>*.properties</mask>
-      <mask>*.html</mask>
-      <mask>*.jsp</mask>
-      <mask>*.xml</mask>
-      <mask>*.java</mask>
-      <mask>*.as</mask>
-      <mask>*.css</mask>
-      <mask>*.mxml</mask>
-      <mask>*.js</mask>
-      <mask>db.json</mask>
-    </recentFileMasks>
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
   </component>
 </application>
