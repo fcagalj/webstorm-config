@@ -10,22 +10,22 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name=".forEach" value=".forEach(function(item){&#10;&#10;});" toReformat="false" toShortenFQNames="true">
+  <template name=".forEach" value=".forEach(function(item){&#10;&#10;});" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="for" value="for (var i = 0;i &lt; A.length; i++) {&#10;    &#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="for" value="for (var i = 0;i &lt; A.length; i++) {&#10;    &#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ifElse" value="if(){&#10;  &#10;} else {&#10;  &#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="ifElse" value="if(){&#10;  &#10;} else {&#10;  &#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="forIn" value="for (var prop in obj) {&#10;  if( obj.hasOwnProperty( prop ) &amp;&amp; typeof prop !== 'object') {&#10;    console.log(&quot;obj.&quot; + prop + &quot; = &quot; + obj[prop]);&#10;  } &#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="forIn" value="for (var prop in obj) {&#10;  if( obj.hasOwnProperty( prop ) &amp;&amp; typeof prop !== 'object') {&#10;    console.log(&quot;obj.&quot; + prop + &quot; = &quot; + obj[prop]);&#10;  } &#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -70,15 +70,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="surrTimeout" value="$timeout(function() {&#10;  $SELECTION$&#10;}, 3000);" toReformat="false" toShortenFQNames="true">
+  <template name="surrTimeout" value="$timeout(function() {&#10;  $SELECTION$&#10;}, 3000);" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="switch" value="switch (foo) {&#10;  case -1:&#10;    console.log('negative 1');&#10;    break;&#10;  case 0: // foo is 0 so criteria met here so this block will run&#10;    console.log(0);&#10;    // NOTE: the forgotten break would have been here&#10;  case 1: // no break statement in 'case 0:' so this case will run as well&#10;    console.log(1);&#10;    break; // it encounters this break so will not continue into 'case 2:'&#10;  case 2:&#10;    console.log(2);&#10;    break;&#10;  default:&#10;    console.log('default');&#10;}" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
-  <template name="arrow" value="() =&gt; {&#10;&#10;}" description="create arrow function" toReformat="false" toShortenFQNames="true">
-    <context />
-  </template>
+  <template name="switch" value="switch (foo) {&#10;  case -1:&#10;    console.log('negative 1');&#10;    break;&#10;  case 0: // foo is 0 so criteria met here so this block will run&#10;    console.log(0);&#10;    // NOTE: the forgotten break would have been here&#10;  case 1: // no break statement in 'case 0:' so this case will run as well&#10;    console.log(1);&#10;    break; // it encounters this break so will not continue into 'case 2:'&#10;  case 2:&#10;    console.log(2);&#10;    break;&#10;  default:&#10;    console.log('default');&#10;}" description="" toReformat="false" toShortenFQNames="true" />
+  <template name="arrow" value="() =&gt; {&#10;&#10;}" description="create arrow function" toReformat="false" toShortenFQNames="true" />
 </templateSet>
