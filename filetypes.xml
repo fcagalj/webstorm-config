@@ -1,16 +1,13 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <removed_mapping pattern=".babelrc" type="JSON" />
       <mapping pattern="LC_practice_SumOfDigits" type="JavaScript" />
-      <mapping pattern=".babelrc" type="JavaScript" />
-      <mapping pattern="helpers" type="JavaScript" />
       <mapping pattern="loseFocus" type="JavaScript" />
+      <mapping pattern="helpers" type="JavaScript" />
       <mapping pattern=".editorconfig" type="Native" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="codilityAD1Z1" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
-      <mapping ext="opts" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
