@@ -10,7 +10,7 @@
     <mask>*.as</mask>
     <mask>*.css</mask>
     <mask>*.mxml</mask>
-    <mask>*.js</mask>
     <mask>*.html</mask>
+    <mask>*.js</mask>
   </component>
 </application>
