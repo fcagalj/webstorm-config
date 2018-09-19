@@ -8,6 +8,7 @@
       <mapping pattern=".editorconfig" type="Native" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="codilityAD1Z1" type="PLAIN_TEXT" />
+      <mapping pattern="association-item.html" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
     </extensionMap>
