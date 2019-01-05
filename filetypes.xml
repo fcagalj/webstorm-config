@@ -1,12 +1,12 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <removed_mapping pattern=".editorconfig" type="EditorConfig" />
       <mapping pattern=".gitignore_global" type="Git file" />
       <mapping pattern="loseFocus" type="JavaScript" />
       <mapping pattern="LC_practice_SumOfDigits" type="JavaScript" />
       <mapping pattern="helpers" type="JavaScript" />
       <mapping pattern=".editorconfig" type="Native" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="codilityAD1Z1" type="PLAIN_TEXT" />
       <mapping pattern="association-item.html" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
