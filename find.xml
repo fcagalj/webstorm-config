@@ -13,8 +13,8 @@
     <mask>*.sass</mask>
     <mask>*.scss</mask>
     <mask>*.test.js</mask>
-    <mask>*.js</mask>
     <mask>*.html</mask>
     <mask>*.spec.js</mask>
+    <mask>*.js</mask>
   </component>
 </application>
