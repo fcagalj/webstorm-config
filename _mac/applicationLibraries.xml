@@ -1,5 +1,13 @@
 <application>
   <component name="libraryTable">
+    <library name="@types/graphql-react" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/sequelize" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
     <library name="angularjs-DefinitelyTyped" type="javaScript">
       <properties>
         <sourceFilesUrls>
