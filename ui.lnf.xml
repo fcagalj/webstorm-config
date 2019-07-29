@@ -1,8 +1,8 @@
 <application>
   <component name="UISettings">
-    <option name="FONT_SCALE" value="1.0" />
     <option name="MAX_LOOKUP_LIST_HEIGHT" value="5" />
     <option name="SCROLL_TAB_LAYOUT_IN_EDITOR" value="false" />
     <option name="SHOW_EDITOR_TOOLTIP" value="false" />
+    <option name="SHOW_INPLACE_COMMENTS" value="true" />
   </component>
 </application>

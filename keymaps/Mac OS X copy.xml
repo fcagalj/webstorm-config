@@ -28,4 +28,5 @@
   <action id="UML.ZoomOut">
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
+  <action id="ViewInplaceComments" />
 </keymap>
