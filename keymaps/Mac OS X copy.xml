@@ -15,6 +15,7 @@
   <action id="Images.Editor.ZoomOut">
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
+  <action id="ReformatWithPrettierAction" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
