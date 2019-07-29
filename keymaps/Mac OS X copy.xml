@@ -12,8 +12,14 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta minus" />
   </action>
+  <action id="EslintImportCodeStyle">
+    <keyboard-shortcut first-keystroke="meta s" />
+  </action>
   <action id="Images.Editor.ZoomOut">
     <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="ReformatWithPrettierAction" />
   <action id="SearchEverywhere">
