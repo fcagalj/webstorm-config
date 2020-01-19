@@ -23,7 +23,7 @@
     <global-watchers>
       <TaskOptions>
         <option name="arguments" value="--write $FilePathRelativeToProjectRoot$" />
-        <option name="checkSyntaxErrors" value="true" />
+        <option name="checkSyntaxErrors" value="false" />
         <option name="description" />
         <option name="exitCodeBehavior" value="ALWAYS" />
         <option name="fileExtension" value="js" />
