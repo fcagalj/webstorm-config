@@ -72,5 +72,5 @@
     <variable name="LIMIT" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="copy" value="require('copy-paste').copy(JSON.stringify());" description="copy nodejs" toReformat="false" toShortenFQNames="true" />
+  <template name="ncopy" value="require('copy-paste').copy(JSON.stringify());" description="copy nodejs" toReformat="false" toShortenFQNames="true" />
 </templateSet>
