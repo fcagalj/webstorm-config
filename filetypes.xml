@@ -2,17 +2,17 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="LC_practice_SumOfDigits" type="JavaScript" />
-      <mapping pattern="loseFocus" type="JavaScript" />
       <mapping pattern="helpers" type="JavaScript" />
+      <mapping pattern="loseFocus" type="JavaScript" />
       <mapping pattern="association-item.html" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern=".ENV" type="PLAIN_TEXT" />
       <mapping pattern="codilityAD1Z1" type="PLAIN_TEXT" />
-      <mapping ext="eot" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
-      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <mapping ext="eot" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
