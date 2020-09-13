@@ -9,6 +9,7 @@
       <mapping pattern="codilityAD1Z1" type="PLAIN_TEXT" />
       <mapping pattern="resetRedisConfigjs" type="PLAIN_TEXT" />
       <mapping pattern=".env-fresh" type="PLAIN_TEXT" />
+      <mapping ext="pcks8" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
