@@ -5,6 +5,7 @@
       <mapping pattern="helpers" type="JavaScript" />
       <mapping pattern="loseFocus" type="JavaScript" />
       <mapping pattern="association-item.html" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern=".ENV" type="PLAIN_TEXT" />
       <mapping pattern="codilityAD1Z1" type="PLAIN_TEXT" />
       <mapping pattern="resetRedisConfigjs" type="PLAIN_TEXT" />
