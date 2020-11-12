@@ -40,7 +40,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cl" value="console.log('');" description="console log" toReformat="false" toShortenFQNames="true">
+  <template name="cl" value="console.log('')" description="console log" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
