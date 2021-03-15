@@ -5,8 +5,8 @@
     <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.js</mask>
     <mask>*.scss</mask>
-    <mask>*.ts</mask>
     <mask>*.json</mask>
     <mask>*.test.js</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
