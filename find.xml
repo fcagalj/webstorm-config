@@ -8,5 +8,6 @@
     <mask>*.json</mask>
     <mask>*.test.js</mask>
     <mask>*.ts</mask>
+    <mask>*.tf</mask>
   </component>
 </application>
