@@ -3,12 +3,13 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>*.js</mask>
+    <option name="FILE_MASK" value="*.js" />
     <mask>*.scss</mask>
     <mask>*.json</mask>
     <mask>*.test.js</mask>
     <mask>*.tf</mask>
     <mask>*.ts</mask>
     <mask>*.test.ts</mask>
+    <mask>*.js</mask>
   </component>
 </application>
