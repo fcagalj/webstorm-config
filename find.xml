@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <mask>*.scss</mask>
+    <option name="FILE_MASK" value="*.scss" />
     <mask>*.json</mask>
     <mask>*.test.js</mask>
     <mask>*.tf</mask>
@@ -11,5 +11,6 @@
     <mask>*.test.ts</mask>
     <mask>*.ts</mask>
     <mask>*.tsx</mask>
+    <mask>*.scss</mask>
   </component>
 </application>
