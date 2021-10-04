@@ -1,18 +1,18 @@
 <application>
   <component name="FileTypeManager" version="18">
-    <ignoreFiles list="*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;node_modules;vssver.scc;vssver2.scc;" />
+    <ignoreFiles list="*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;node_modules;vssver.scc;vssver2.scc" />
     <extensionMap>
       <mapping pattern="Procfile" type="AUTO_DETECTED" />
       <mapping pattern="curl1" type="AUTO_DETECTED" />
-      <mapping pattern="LC_practice_SumOfDigits" type="JavaScript" />
       <mapping pattern="helpers" type="JavaScript" />
+      <mapping pattern="LC_practice_SumOfDigits" type="JavaScript" />
       <mapping pattern="loseFocus" type="JavaScript" />
-      <mapping pattern="association-item.html" type="PLAIN_TEXT" />
-      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern=".ENV" type="PLAIN_TEXT" />
-      <mapping pattern="codilityAD1Z1" type="PLAIN_TEXT" />
       <mapping pattern="resetRedisConfigjs" type="PLAIN_TEXT" />
       <mapping pattern=".env-fresh" type="PLAIN_TEXT" />
+      <mapping pattern="codilityAD1Z1" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern="association-item.html" type="PLAIN_TEXT" />
       <mapping ext="pcks8" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
       <mapping ext="ext" type="PLAIN_TEXT" />
