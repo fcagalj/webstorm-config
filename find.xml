@@ -7,13 +7,23 @@
     <mask>*.json</mask>
     <mask>*.test.js</mask>
     <mask>*.tf</mask>
-    <mask>*.js</mask>
     <mask>*.test.ts</mask>
     <mask>*.tsx</mask>
     <mask>*.scss</mask>
     <mask>*test*</mask>
     <mask>*.spec.ts</mask>
     <mask>package.json</mask>
+    <mask>*.xml</mask>
+    <mask>*.css</mask>
+    <mask>*.shtml</mask>
+    <mask>*.shtm</mask>
+    <mask>*.ng</mask>
+    <mask>*.htm</mask>
+    <mask>*.sht</mask>
+    <mask>*.html</mask>
+    <mask>*.ats</mask>
+    <mask>*.cjs</mask>
+    <mask>*.js</mask>
     <mask>*.ts</mask>
   </component>
 </application>
