@@ -11,6 +11,7 @@
     <mask>*.scss</mask>
     <mask>*test*</mask>
     <mask>*.spec.ts</mask>
+    <mask>package.json</mask>
     <mask>*.xml</mask>
     <mask>*.css</mask>
     <mask>*.shtml</mask>
@@ -23,6 +24,5 @@
     <mask>*.ts</mask>
     <mask>*.cjs</mask>
     <mask>*.js</mask>
-    <mask>package.json</mask>
   </component>
 </application>
