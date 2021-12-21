@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.ts" />
     <mask>*.json</mask>
     <mask>*.test.js</mask>
     <mask>*.tf</mask>
@@ -23,7 +24,7 @@
     <mask>*.ats</mask>
     <mask>*.cjs</mask>
     <mask>*.js</mask>
-    <mask>*.ts</mask>
     <mask>package.json</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
