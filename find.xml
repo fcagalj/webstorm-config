@@ -1,8 +1,13 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="wholeWordsOnly" value="true" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.js" />
     <mask>*.json</mask>
     <mask>*.test.js</mask>
     <mask>*.tf</mask>
@@ -22,8 +27,8 @@
     <mask>*.html</mask>
     <mask>*.ats</mask>
     <mask>*.cjs</mask>
-    <mask>*.js</mask>
     <mask>package.json</mask>
     <mask>*.ts</mask>
+    <mask>*.js</mask>
   </component>
 </application>
