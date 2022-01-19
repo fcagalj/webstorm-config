@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="Procfile" type="AUTO_DETECTED" />
       <mapping pattern="curl1" type="AUTO_DETECTED" />
+      <removed_mapping pattern=".env" type="Env File" />
       <mapping pattern="helpers" type="JavaScript" />
       <mapping pattern="LC_practice_SumOfDigits" type="JavaScript" />
       <mapping pattern="loseFocus" type="JavaScript" />
