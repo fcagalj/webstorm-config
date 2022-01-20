@@ -4,7 +4,6 @@
     <extensionMap>
       <mapping pattern="Procfile" type="AUTO_DETECTED" />
       <mapping pattern="curl1" type="AUTO_DETECTED" />
-      <removed_mapping pattern=".env" type="Env File" />
       <mapping pattern="helpers" type="JavaScript" />
       <mapping pattern="LC_practice_SumOfDigits" type="JavaScript" />
       <mapping pattern="loseFocus" type="JavaScript" />
@@ -32,6 +31,7 @@
       <removed_mapping ext="ttf" approved="true" type="Font" />
       <removed_mapping pattern=".dockerignore" approved="true" type="Docker File" />
       <removed_mapping pattern=".env" approved="true" type=".env file" />
+      <removed_mapping pattern=".env" approved="true" type="Env File" />
       <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
   </component>
