@@ -32,6 +32,7 @@
       <removed_mapping pattern=".dockerignore" approved="true" type="Docker File" />
       <removed_mapping pattern=".env" approved="true" type=".env file" />
       <removed_mapping pattern=".env" approved="true" type="Env File" />
+      <removed_mapping pattern=".env.*" approved="true" type="Env File" />
       <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
   </component>
