@@ -1,0 +1,6 @@
+<application>
+  <component name="SolhintProjectComponent">
+    <option name="nodePath" value="$USER_HOME$/.nvm/versions/node/v14.7.0/bin/node" />
+    <option name="solhintPath" value="$USER_HOME$/.nvm/versions/node/v14.7.0/lib/node_modules/solhint/solhint.js" />
+  </component>
+</application>
