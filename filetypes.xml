@@ -4,21 +4,33 @@
     <extensionMap>
       <mapping pattern="Procfile" type="AUTO_DETECTED" />
       <mapping pattern="curl1" type="AUTO_DETECTED" />
-      <mapping pattern="helpers" type="JavaScript" />
-      <mapping pattern="LC_practice_SumOfDigits" type="JavaScript" />
-      <mapping pattern="loseFocus" type="JavaScript" />
+      <mapping pattern="jest.config" type="JSON" />
+      <mapping pattern=".eslintrc" type="JSON" />
+      <mapping pattern=".stylelintrc" type="JSON" />
+      <mapping pattern=".babelrc" type="JSON" />
+      <mapping pattern="bowerrc" type="JSON" />
+      <mapping ext="jsb3" type="JSON" />
+      <mapping ext="jsb2" type="JSON" />
       <mapping pattern=".solhintignore" type="PLAIN_TEXT" />
-      <mapping pattern=".ENV" type="PLAIN_TEXT" />
+      <mapping pattern=".jshintignore" type="PLAIN_TEXT" />
       <mapping pattern="resetRedisConfigjs" type="PLAIN_TEXT" />
+      <mapping pattern=".stylelintignore" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern=".npmrc" type="PLAIN_TEXT" />
+      <mapping pattern=".npmignore" type="PLAIN_TEXT" />
+      <mapping pattern=".yarnrc" type="PLAIN_TEXT" />
+      <mapping pattern=".ENV" type="PLAIN_TEXT" />
       <mapping pattern=".env-fresh" type="PLAIN_TEXT" />
       <mapping pattern="codilityAD1Z1" type="PLAIN_TEXT" />
-      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern=".nvmrc" type="PLAIN_TEXT" />
       <mapping pattern="association-item.html" type="PLAIN_TEXT" />
+      <mapping pattern=".node-version" type="PLAIN_TEXT" />
+      <mapping pattern=".eslintignore" type="PLAIN_TEXT" />
       <mapping ext="pcks8" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
-      <mapping ext="ext" type="PLAIN_TEXT" />
       <mapping ext="srt" type="PLAIN_TEXT" />
+      <mapping ext="ext" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
@@ -35,6 +47,9 @@
       <removed_mapping pattern=".env" approved="true" type="Env File" />
       <removed_mapping pattern=".env.*" approved="true" type="Env File" />
       <mapping pattern=".gitignore_global" type="Git file" />
+      <mapping pattern="LC_practice_SumOfDigits" type="JavaScript" />
+      <mapping pattern="helpers" type="JavaScript" />
+      <mapping pattern="loseFocus" type="JavaScript" />
     </extensionMap>
   </component>
 </application>
