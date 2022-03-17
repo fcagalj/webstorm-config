@@ -9,17 +9,17 @@
       <mapping pattern="LC_practice_SumOfDigits" type="JavaScript" />
       <mapping pattern="loseFocus" type="JavaScript" />
       <mapping pattern=".solhintignore" type="PLAIN_TEXT" />
-      <mapping pattern=".ENV" type="PLAIN_TEXT" />
       <mapping pattern="resetRedisConfigjs" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern=".ENV" type="PLAIN_TEXT" />
       <mapping pattern=".env-fresh" type="PLAIN_TEXT" />
       <mapping pattern="codilityAD1Z1" type="PLAIN_TEXT" />
-      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="association-item.html" type="PLAIN_TEXT" />
       <mapping ext="pcks8" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
-      <mapping ext="ext" type="PLAIN_TEXT" />
       <mapping ext="srt" type="PLAIN_TEXT" />
+      <mapping ext="ext" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
