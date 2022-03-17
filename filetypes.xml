@@ -5,7 +5,6 @@
       <mapping pattern="Procfile" type="AUTO_DETECTED" />
       <mapping pattern="LoadingSvg" type="AUTO_DETECTED" />
       <mapping pattern="curl1" type="AUTO_DETECTED" />
-      <mapping pattern=".prettierrc" type="JSON" />
       <mapping pattern="helpers" type="JavaScript" />
       <mapping pattern="LC_practice_SumOfDigits" type="JavaScript" />
       <mapping pattern="loseFocus" type="JavaScript" />
