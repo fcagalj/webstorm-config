@@ -1,4 +1,15 @@
 <application>
+  <component name="GitRememberedInputs">
+    <option name="visitedUrls">
+      <list>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:pvinis/blog.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+      </list>
+    </option>
+    <option name="cloneParentDir" value="$USER_HOME$/SOFT_DEV/PROJECTS" />
+  </component>
   <component name="Vcs.Log.App.Settings">
     <option name="PREFER_COMMIT_DATE" value="true" />
     <option name="COLUMN_ID_ORDER">
