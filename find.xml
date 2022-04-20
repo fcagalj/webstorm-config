@@ -25,5 +25,7 @@
     <mask>*.js</mask>
     <mask>*.ts</mask>
     <mask>*.scss</mask>
+    <mask>*.test.tsx</mask>
+    <mask>*.css.ts</mask>
   </component>
 </application>
