@@ -19,8 +19,8 @@
       <mapping pattern="association-item.html" type="PLAIN_TEXT" />
       <mapping ext="pcks8" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
-      <mapping ext="srt" type="PLAIN_TEXT" />
       <mapping ext="ext" type="PLAIN_TEXT" />
+      <mapping ext="srt" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
       <mapping ext="graphql" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
