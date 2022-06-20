@@ -15,6 +15,8 @@
     <option name="cloneParentDir" value="$USER_HOME$/SOFT_DEV/PROJECTS/BBC" />
   </component>
   <component name="Vcs.Log.App.Settings">
+    <option name="SHOW_TAG_NAMES" value="true" />
+    <option name="LABELS_LEFT_ALIGNED" value="true" />
     <option name="PREFER_COMMIT_DATE" value="true" />
     <option name="COLUMN_ID_ORDER">
       <list>
