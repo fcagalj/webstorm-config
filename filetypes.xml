@@ -40,6 +40,7 @@
       <removed_mapping pattern=".env" approved="true" type=".env file" />
       <removed_mapping pattern=".env" approved="true" type="Env File" />
       <removed_mapping pattern=".env.*" approved="true" type="Env File" />
+      <removed_mapping pattern=".prettierignore" approved="true" type="Prettier File" />
       <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
   </component>
