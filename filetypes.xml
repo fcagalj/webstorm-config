@@ -21,10 +21,10 @@
       <mapping pattern="association-item.html" type="PLAIN_TEXT" />
       <mapping ext="pcks8" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
-      <mapping ext="ext" type="PLAIN_TEXT" />
       <mapping ext="srt" type="PLAIN_TEXT" />
       <mapping ext="eot" type="PLAIN_TEXT" />
       <mapping ext="graphql" type="PLAIN_TEXT" />
+      <mapping ext="ext" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
@@ -40,6 +40,7 @@
       <removed_mapping pattern=".env" approved="true" type=".env file" />
       <removed_mapping pattern=".env" approved="true" type="Env File" />
       <removed_mapping pattern=".env.*" approved="true" type="Env File" />
+      <removed_mapping pattern=".prettierignore" approved="true" type="Prettier File" />
       <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
   </component>
