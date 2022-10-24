@@ -17,7 +17,6 @@
     <mask>*.ng</mask>
     <mask>*.htm</mask>
     <mask>*.sht</mask>
-    <mask>*.html</mask>
     <mask>*.ats</mask>
     <mask>*.cjs</mask>
     <mask>package.json</mask>
@@ -28,5 +27,6 @@
     <mask>*.test.ts</mask>
     <mask>*.ts</mask>
     <mask>*.test.*</mask>
+    <mask>*.html</mask>
   </component>
 </application>
